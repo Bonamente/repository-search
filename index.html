@@ -9,6 +9,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <main>
+    <section class="search-container">
+      <h1 class="search-title">Найти GitHub репозиторий:</h1>
+
+      <form class="search-form">
+        <label class="visually-hidden" for="search-input">Введите название</label>
+        <input id="search-input" class="search-input" type="text" placeholder="Введите название...">
+
+        <button id="search-btn" class="search-btn" type="submit">
+          <span class="visually-hidden">Найти</span>
+        </button>
+      </form>
+
+      <div id="search-results"></div>
+    </section>
+  </main>
+
   <script src="index.js"></script>
 </body>
 </html>
