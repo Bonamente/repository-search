@@ -86,6 +86,12 @@ img {
   padding-bottom: 30px;
 }
 
+@media (max-width: 1024px) {
+  .search-container {
+    width: 80%;  
+  }
+}
+
 .search-title {
   margin-bottom: 20px;
   text-align: center;
